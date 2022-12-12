@@ -170,13 +170,30 @@ section{
 
 
 
-.peluquerias:hover{
+img:hover{
     transform: scale(1.1) translateZ(-60px);
+}
+.terceraac{
+    background-color:#0f5132;
+    display: flex;
+    justify-content:space-around;
+    padding: 60px;
+    gap: 30px;
 }
 
 .menu__item{
     background-color: rgb(4, 5, 5);
     text-decoration: aliceblue;
+}
+
+.formulario{
+    padding: 50px;
+    margin: 50px;
+}
+
+
+.pie{
+    background-color: red;
 }
 
 .footer{
