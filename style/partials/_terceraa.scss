@@ -1,0 +1,11 @@
+.terceraa{
+    background-color: rgb(108, 147, 29);
+    display: flex;
+    justify-content:center;
+    padding: 60px;
+    gap: 30px;
+
+    img:hover{
+        transform: scale(1.1) translateZ(-60px);
+    }
+}

@@ -1,0 +1,33 @@
+header{
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    titu{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+    }
+
+    
+.logo{
+    width: 100px;
+}
+img:hover{
+    transform: scale(1.1) translateZ(-60px);
+}
+.menu{
+    display: flex;
+    text-align: right;
+    list-style-type: none;
+    gap: 10px;
+    .menu__item a{
+        text-decoration: none;
+    }
+    
+}
+
+}
+

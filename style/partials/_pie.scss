@@ -1,0 +1,15 @@
+.pie{
+    background-color: red;
+
+    img:hover{
+        transform: scale(1.1) translateZ(-60px);
+    }
+
+    .contactos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+        align-content: flex-end;
+    }
+}

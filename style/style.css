@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,300;0,400;1,500;1,600&display=swap");
+header {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header titu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+header .logo {
+  width: 100px;
+}
+header img:hover {
+  transform: scale(1.1) translateZ(-60px);
+}
+header .menu {
+  display: flex;
+  text-align: right;
+  list-style-type: none;
+  gap: 10px;
+}
+header .menu .menu__item a {
+  text-decoration: none;
+}
+
+.imagenes {
+  background-color: rgb(86, 103, 90);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  gap: 30px;
+}
+.imagenes img:hover {
+  transform: scale(1.1) translateZ(-60px);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.secciondos {
+  background-color: rgb(86, 103, 90);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  gap: 30px;
+}
+.secciondos img:hover {
+  transform: scale(1.1) translateZ(-60px);
+}
+.secciondos .seccion {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.terceraa {
+  background-color: rgb(108, 147, 29);
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  gap: 30px;
+}
+.terceraa img:hover {
+  transform: scale(1.1) translateZ(-60px);
+}
+
+.pie {
+  background-color: red;
+}
+.pie img:hover {
+  transform: scale(1.1) translateZ(-60px);
+}
+.pie .contactos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: flex-end;
+}/*# sourceMappingURL=style.css.map */
