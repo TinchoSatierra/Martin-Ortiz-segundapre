@@ -195,7 +195,22 @@ img:hover{
 .pie{
     background-color: red;
 }
+.finales{
+    margin-bottom: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.final{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer{
     background-color: rgb(173, 8, 13)
     darkgreen

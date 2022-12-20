@@ -1,0 +1,26 @@
+.finales{
+    margin-bottom: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .final{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@mixin medidas($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+.finales .final1 {
+    width: 200px;
+    height: 150px;
+}
